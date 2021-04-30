@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="33.260541">
+<testcase classname="User able to select filtered product" name="User will select filtered product and verifying the added product in trolley or not" time="33.260541">
+<system-out><![CDATA[Given User is on Homepage...................................................passed
+When User selected "women"..................................................passed
+And User selected "Jewellery and watches" in category.......................passed
+And User selected "£10 - £15" in price......................................passed
+And User selected "Moon & Back" in brands...................................passed
+And Add filtered Product to basket..........................................passed
+Then Verify the product in trolley..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,158 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6410517392,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User will select filtered product and verifying the added product in trolley or not",
+        "description": "",
+        "id": "user-able-to-select-filtered-product;user-will-select-filtered-product-and-verifying-the-added-product-in-trolley-or-not",
+        "after": [
+          {
+            "result": {
+              "duration": 24484,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 103227360,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Homepage",
+            "match": {
+              "location": "HomepageStepDef.userIsOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2124272223,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User selected \"women\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "women",
+                  "offset": 15
+                }
+              ],
+              "location": "HomepageStepDef.userSelected(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4375944807,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User selected \"Jewellery and watches\" in category",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jewellery and watches",
+                  "offset": 15
+                }
+              ],
+              "location": "ResultsStepDef.userSelectedInCategory(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3246895555,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User selected \"£10 - £15\" in price",
+            "match": {
+              "arguments": [
+                {
+                  "val": "£10 - £15",
+                  "offset": 15
+                }
+              ],
+              "location": "ResultsStepDef.userSelectedInPrice(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1201319446,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User selected \"Moon \u0026 Back\" in brands",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Moon \u0026 Back",
+                  "offset": 15
+                }
+              ],
+              "location": "ResultsStepDef.userSelectedInBrands(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15560857022,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Add filtered Product to basket",
+            "match": {
+              "location": "ResultsStepDef.addFilteredProductToBasket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 237482759,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Verify the product in trolley",
+            "match": {
+              "location": "ResultsStepDef.verifyTheProductInTrolley()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User able to select filtered product",
+    "description": "",
+    "id": "user-able-to-select-filtered-product",
+    "keyword": "Feature",
+    "uri": "result.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@result"
+      }
+    ]
+  }
+]
